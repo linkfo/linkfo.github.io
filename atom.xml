@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="https://linkfo.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://linkfo.github.io/"/>
+  <updated>2023-07-10T05:51:48.791Z</updated>
+  <id>https://linkfo.github.io/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>tags</title>
+    <link href="https://linkfo.github.io/2023/07/10/tags/"/>
+    <id>https://linkfo.github.io/2023/07/10/tags/</id>
+    <published>2023-07-10T05:51:48.000Z</published>
+    <updated>2023-07-10T05:51:48.791Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://linkfo.github.io/2023/07/10/hello-world/"/>
+    <id>https://linkfo.github.io/2023/07/10/hello-world/</id>
+    <published>2023-07-10T04:49:02.829Z</published>
+    <updated>1985-10-26T08:15:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
