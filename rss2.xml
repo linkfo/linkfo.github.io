@@ -3,50 +3,69 @@
   xmlns:atom="http://www.w3.org/2005/Atom"
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Hexo</title>
+    <title>BHK</title>
     <link>https://linkfo.github.io/</link>
     
     <atom:link href="https://linkfo.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Mon, 10 Jul 2023 05:51:48 GMT</pubDate>
+    <pubDate>Thu, 20 Jul 2023 06:51:35 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>tags</title>
-      <link>https://linkfo.github.io/2023/07/10/tags/</link>
-      <guid>https://linkfo.github.io/2023/07/10/tags/</guid>
-      <pubDate>Mon, 10 Jul 2023 05:51:48 GMT</pubDate>
+      <title>日志2023-07-20</title>
+      <link>https://linkfo.github.io/2023/07/20/diary/2023-07-20/cdc105aa88c1.html</link>
+      <guid>https://linkfo.github.io/2023/07/20/diary/2023-07-20/cdc105aa88c1.html</guid>
+      <pubDate>Thu, 20 Jul 2023 05:58:06 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h2 id=&quot;todo&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#todo&quot;&gt;&lt;/a&gt; TODO&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[ ] 多喝水，避免久坐不动&lt;/li&gt;
+&lt;li&gt;[ ] 阅读一篇文献&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2</description>
+          
+        
       
       
       
       
+      <category domain="https://linkfo.github.io/categories/temp/">temp</category>
       
       
-      <comments>https://linkfo.github.io/2023/07/10/tags/#disqus_thread</comments>
+      <category domain="https://linkfo.github.io/tags/dailynote/">dailynote</category>
+      
+      
+      <comments>https://linkfo.github.io/2023/07/20/diary/2023-07-20/cdc105aa88c1.html#disqus_thread</comments>
       
     </item>
     
     <item>
-      <title>Hello World</title>
-      <link>https://linkfo.github.io/2023/07/10/hello-world/</link>
-      <guid>https://linkfo.github.io/2023/07/10/hello-world/</guid>
-      <pubDate>Mon, 10 Jul 2023 04:49:02 GMT</pubDate>
+      <title>conda 笔记</title>
+      <link>https://linkfo.github.io/2023/07/18/conda%20%E7%AC%94%E8%AE%B0/a55e79a55634.html</link>
+      <guid>https://linkfo.github.io/2023/07/18/conda%20%E7%AC%94%E8%AE%B0/a55e79a55634.html</guid>
+      <pubDate>Tue, 18 Jul 2023 11:26:04 GMT</pubDate>
       
-        
-        
-          
-          
-      <description>&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</description>
-          
-        
+      <description>为什么要做？</description>
       
       
       
       
+      <category domain="https://linkfo.github.io/categories/%E5%B7%A5%E5%85%B7/">工具</category>
       
       
-      <comments>https://linkfo.github.io/2023/07/10/hello-world/#disqus_thread</comments>
+      <category domain="https://linkfo.github.io/tags/Anaconda/">Anaconda</category>
+      
+      <category domain="https://linkfo.github.io/tags/conda/">conda</category>
+      
+      <category domain="https://linkfo.github.io/tags/%E5%B7%A5%E5%85%B7/">工具</category>
+      
+      
+      <comments>https://linkfo.github.io/2023/07/18/conda%20%E7%AC%94%E8%AE%B0/a55e79a55634.html#disqus_thread</comments>
       
     </item>
     

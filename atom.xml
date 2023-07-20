@@ -1,52 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>BHK</title>
   
   
   <link href="https://linkfo.github.io/atom.xml" rel="self"/>
   
   <link href="https://linkfo.github.io/"/>
-  <updated>2023-07-10T05:51:48.791Z</updated>
+  <updated>2023-07-20T06:51:35.750Z</updated>
   <id>https://linkfo.github.io/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>linkfo</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>tags</title>
-    <link href="https://linkfo.github.io/2023/07/10/tags/"/>
-    <id>https://linkfo.github.io/2023/07/10/tags/</id>
-    <published>2023-07-10T05:51:48.000Z</published>
-    <updated>2023-07-10T05:51:48.791Z</updated>
+    <title>日志2023-07-20</title>
+    <link href="https://linkfo.github.io/2023/07/20/diary/2023-07-20/cdc105aa88c1.html"/>
+    <id>https://linkfo.github.io/2023/07/20/diary/2023-07-20/cdc105aa88c1.html</id>
+    <published>2023-07-20T05:58:06.000Z</published>
+    <updated>2023-07-20T06:51:35.750Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;todo&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#todo&quot;&gt;&lt;/a&gt; TODO&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;[ ] 多喝水，避免久坐不动&lt;/li&gt;
+&lt;li&gt;[ ] 阅读一篇文献&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2</summary>
+        
+      
     
     
     
+    <category term="temp" scheme="https://linkfo.github.io/categories/temp/"/>
     
+    
+    <category term="dailynote" scheme="https://linkfo.github.io/tags/dailynote/"/>
     
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://linkfo.github.io/2023/07/10/hello-world/"/>
-    <id>https://linkfo.github.io/2023/07/10/hello-world/</id>
-    <published>2023-07-10T04:49:02.829Z</published>
-    <updated>1985-10-26T08:15:00.000Z</updated>
+    <title>conda 笔记</title>
+    <link href="https://linkfo.github.io/2023/07/18/conda%20%E7%AC%94%E8%AE%B0/a55e79a55634.html"/>
+    <id>https://linkfo.github.io/2023/07/18/conda%20%E7%AC%94%E8%AE%B0/a55e79a55634.html</id>
+    <published>2023-07-18T11:26:04.000Z</published>
+    <updated>2023-07-20T06:38:21.729Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
-        
-      
+    <summary type="html">为什么要做？</summary>
     
     
     
+    <category term="工具" scheme="https://linkfo.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="Anaconda" scheme="https://linkfo.github.io/tags/Anaconda/"/>
+    
+    <category term="conda" scheme="https://linkfo.github.io/tags/conda/"/>
+    
+    <category term="工具" scheme="https://linkfo.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   

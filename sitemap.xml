@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://linkfo.github.io/2023/07/20/diary/2023-07-20/cdc105aa88c1.html</loc>
+    
+    <lastmod>2023-07-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://linkfo.github.io/2023/07/18/conda%20%E7%AC%94%E8%AE%B0/a55e79a55634.html</loc>
+    
+    <lastmod>2023-07-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://linkfo.github.io/list/index.html</loc>
     
     <lastmod>2023-07-10</lastmod>
@@ -38,15 +56,6 @@
   </url>
   
   <url>
-    <loc>https://linkfo.github.io/2023/07/10/tags/</loc>
-    
-    <lastmod>2023-07-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://linkfo.github.io/repository/index.html</loc>
     
     <lastmod>2023-07-10</lastmod>
@@ -73,24 +82,57 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://linkfo.github.io/2023/07/10/hello-world/</loc>
-    
-    <lastmod>1985-10-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>https://linkfo.github.io/</loc>
-    <lastmod>2023-07-10</lastmod>
+    <lastmod>2023-07-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
+  <url>
+    <loc>https://linkfo.github.io/tags/Anaconda/</loc>
+    <lastmod>2023-07-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://linkfo.github.io/tags/conda/</loc>
+    <lastmod>2023-07-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://linkfo.github.io/tags/%E5%B7%A5%E5%85%B7/</loc>
+    <lastmod>2023-07-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://linkfo.github.io/tags/dailynote/</loc>
+    <lastmod>2023-07-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
+  
+  <url>
+    <loc>https://linkfo.github.io/categories/%E5%B7%A5%E5%85%B7/</loc>
+    <lastmod>2023-07-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://linkfo.github.io/categories/temp/</loc>
+    <lastmod>2023-07-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 </urlset>
