@@ -9,38 +9,29 @@
     <atom:link href="https://linkfo.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Thu, 20 Jul 2023 06:51:35 GMT</pubDate>
+    <pubDate>Thu, 20 Jul 2023 07:32:55 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>日志2023-07-20</title>
-      <link>https://linkfo.github.io/2023/07/20/diary/2023-07-20/cdc105aa88c1.html</link>
-      <guid>https://linkfo.github.io/2023/07/20/diary/2023-07-20/cdc105aa88c1.html</guid>
-      <pubDate>Thu, 20 Jul 2023 05:58:06 GMT</pubDate>
+      <title>git add .，git add -A，git add -u，git add * 的区别与联系</title>
+      <link>https://linkfo.github.io/2023/07/20/git%20add%20%E7%9A%84%E5%8C%BA%E5%88%AB%E4%B8%8E%E8%81%94%E7%B3%BB/b9fb7e58920f.html</link>
+      <guid>https://linkfo.github.io/2023/07/20/git%20add%20%E7%9A%84%E5%8C%BA%E5%88%AB%E4%B8%8E%E8%81%94%E7%B3%BB/b9fb7e58920f.html</guid>
+      <pubDate>Thu, 20 Jul 2023 07:06:33 GMT</pubDate>
       
-        
-        
-          
-          
-      <description>&lt;h2 id=&quot;todo&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#todo&quot;&gt;&lt;/a&gt; TODO&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;[ ] 多喝水，避免久坐不动&lt;/li&gt;
-&lt;li&gt;[ ] 阅读一篇文献&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2</description>
-          
-        
+      <description>为什么要做？</description>
       
       
       
       
-      <category domain="https://linkfo.github.io/categories/temp/">temp</category>
+      <category domain="https://linkfo.github.io/categories/Other/">Other</category>
       
       
-      <category domain="https://linkfo.github.io/tags/dailynote/">dailynote</category>
+      <category domain="https://linkfo.github.io/tags/%E5%B7%A5%E5%85%B7/">工具</category>
+      
+      <category domain="https://linkfo.github.io/tags/git/">git</category>
       
       
-      <comments>https://linkfo.github.io/2023/07/20/diary/2023-07-20/cdc105aa88c1.html#disqus_thread</comments>
+      <comments>https://linkfo.github.io/2023/07/20/git%20add%20%E7%9A%84%E5%8C%BA%E5%88%AB%E4%B8%8E%E8%81%94%E7%B3%BB/b9fb7e58920f.html#disqus_thread</comments>
       
     </item>
     
