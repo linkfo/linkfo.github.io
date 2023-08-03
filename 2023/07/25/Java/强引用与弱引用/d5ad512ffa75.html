@@ -1,0 +1,35 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover" name="viewport"><meta name="description" content="强引用与弱引用"><meta name="hexo-theme-A4" content="v1.7.0"><link rel="alternate icon" type="image/webp" href="/img/favicon.webp"><title>BHK |</title><link rel="stylesheet" href="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/reset.css"><link rel="stylesheet" href="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/markdown.css"><link rel="stylesheet" href="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/fonts.css"><link rel="stylesheet" href="/css/ui.css"><link rel="stylesheet" href="/css/style.css"><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="BHK" type="application/atom+xml"><link rel="alternate" href="/rss2.xml" title="BHK" type="application/rss+xml"></head><body><div class="paper"><div class="shadow-drop-2-bottom paper-main"><div class="header"><div class="header-container"><img style="width:56px;height:auto" alt="^-^" cache-control="max-age=86400" class="header-img" src="/img/favicon.webp" width="10%"><div class="header-content"><a class="logo" href="/">BHK</a> <span class="description"></span></div></div><ul class="nav"><li><a href="/">首页</a></li><li><a href="/list/">文章</a></li><li><a href="/tags/">标签</a></li><li><a href="/categories/">分类</a></li><li><a href="/about/">关于</a></li></ul></div><div class="post-main"><div class="post-main-title">强引用与弱引用</div><div class="post-md"><ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#python%E4%B8%AD%E7%9A%84%E5%BC%BA%E5%BC%95%E7%94%A8%E5%92%8C%E5%BC%B1%E5%BC%95%E7%94%A8"><span class="post-toc-text">python中的强引用和弱引用</span></a></li></ol><p><strong>强引用(Strong Reference)</strong><br>强引用就是我们经常使用的引用<br>强引用最重要的就是它能够让引用变得强（Strong），这就决定了它和垃圾回收器的交互。具体来说，如果一个对象通过一串强引用链接可到达 (Strongly reachable)，它是不会被回收的。如果你不想让你正在使用的对象被回收，这就正是你所需要的<br><strong>弱引用(WeakReference)</strong><br>弱引用简单来说就是将对象留在内存的能力不是那么强的引用。使用WeakReference，垃圾回收器会帮你来决定引用的对象何时回收并且将对象从内存移除<br>引用《Java编程思想》中</p><pre class="hljs"><code>”每种编程语言都有自己的数据处理方式。有些时候，程序员必须注意将要处理的数据是什么类型。你是直接操纵元素，还是用某种基于特殊语法的间接表示（例如C/C++里的指针）来操作对象。所有这些在 Java 里都得到了简化，一切都被视为对象。因此，我们可采用一种统一的语法。尽管将一切都“看作”对象，但操纵的标识符实际是指向一个对象的“引用”（reference）。”
+</code></pre><h3 id="python中的强引用和弱引用"><a class="markdownIt-Anchor" href="#python中的强引用和弱引用"></a> python中的强引用和弱引用</h3><p>弱引用（ <em>weakref</em> ）<br><code>weakref.ref()</code><br>弱引用是一种特殊的对象，能够在不产生引用的前提下，关联目标对象。</p><pre class="hljs"><code class="python"><span class="hljs-keyword">from</span> weakref <span class="hljs-keyword">import</span> ref
+</code></pre><p>弱引用对象的字段结构，定义于 <em>Include/weakrefobject.h</em> 头文件中的第 <em>10-41</em> 行：</p><pre class="hljs"><code>typedef struct _PyWeakReference PyWeakReference;
+
+/* PyWeakReference is the base struct for the Python ReferenceType, ProxyType,
+ * and CallableProxyType.
+ */
+#ifndef Py_LIMITED_API
+struct _PyWeakReference &#123;
+    PyObject_HEAD
+
+    /* The object to which this is a weak reference, or Py_None if none.
+     * Note that this is a stealth reference:  wr_object's refcount is
+     * not incremented to reflect this pointer.
+     */
+    PyObject *wr_object;
+
+    /* A callable to invoke when wr_object dies, or NULL if none. */
+    PyObject *wr_callback;
+
+    /* A cache for wr_object's hash code.  As usual for hashes, this is -1
+     * if the hash code isn't known yet.
+     */
+    Py_hash_t hash;
+
+    /* If wr_object is weakly referenced, wr_object has a doubly-linked NULL-
+     * terminated list of weak references to it.  These are the list pointers.
+     * If wr_object goes away, wr_object is set to Py_None, and these pointers
+     * have no meaning then.
+     */
+    PyWeakReference *wr_prev;
+    PyWeakReference *wr_next;
+&#125;;
+#endif
+</code></pre><ul><li><em>wr_object</em> ，对象指针，指向被引用对象，弱引用根据该字段可以找到被引用对象，但不会产生引用；</li><li><em>wr_callback</em> ，指向一个可调用对象，当被引用的对象销毁时将被调用；</li><li><em>hash</em> ，缓存被引用对象的哈希值；</li><li><em>wr_prev</em> 和 <em>wr_next</em> 分别是前后向指针，用于将弱引用对象组织成双向链表；</li></ul><p>弱引用对象通过 <em>wr_object</em> 字段关联被引用的对象<br>一个对象可以同时被多个弱引用对象关联<br>所有关联同一个对象的弱引用，被组织成一个双向链表，链表头保存在被引用对象中</p><ul><li>当一个对象被销毁后，Python 将遍历它的弱引用链表，逐一处理：<ul><li>将 wr_object 字段设为 None ，弱引用对象再被调用将返回 None ，调用者便知道对象已经被销毁了；</li><li>执行回调函数 <em>wr_callback</em> （如有）；</li></ul></li></ul></div><div class="post-meta"><i><span>2023-07-25</span> <span>该篇文章被 linkfo</span> <span>打上标签: <a href="/tags/Python/">Python </a><a href="/tags/Java/">Java </a><a href="/tags/JavaScript/">JavaScript </a></span><span>归为分类: <a href="/categories/Java/">Java</a></span></i></div></div><div class="footer"><span>© 2016-2023 China</span></div><div class="footer-last"><span></span> <span class="footer-last-span-right"><i>本站由<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">Hexo</a>驱动｜使用<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">Hexo-theme-A4</a>主题</i></span></div><link rel="stylesheet" href="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/a11y-dark.min.css"><script src="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/js/highlight.min.js"></script><script src="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/js/highlightjs-line-numbers.js"></script><script>hljs.initHighlightingOnLoad(),hljs.initLineNumbersOnLoad()</script></div></div></body></html>

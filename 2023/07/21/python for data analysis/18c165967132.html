@@ -1,0 +1,122 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover" name="viewport"><meta name="description" content="python for data analysis"><meta name="hexo-theme-A4" content="v1.7.0"><link rel="alternate icon" type="image/webp" href="/img/favicon.webp"><title>BHK |</title><link rel="stylesheet" href="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/reset.css"><link rel="stylesheet" href="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/markdown.css"><link rel="stylesheet" href="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/fonts.css"><link rel="stylesheet" href="/css/ui.css"><link rel="stylesheet" href="/css/style.css"><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="BHK" type="application/atom+xml"><link rel="alternate" href="/rss2.xml" title="BHK" type="application/rss+xml"></head><body><div class="paper"><div class="shadow-drop-2-bottom paper-main"><div class="header"><div class="header-container"><img style="width:56px;height:auto" alt="^-^" cache-control="max-age=86400" class="header-img" src="/img/favicon.webp" width="10%"><div class="header-content"><a class="logo" href="/">BHK</a> <span class="description"></span></div></div><ul class="nav"><li><a href="/">首页</a></li><li><a href="/list/">文章</a></li><li><a href="/tags/">标签</a></li><li><a href="/categories/">分类</a></li><li><a href="/about/">关于</a></li></ul></div><div class="post-main"><div class="post-main-title">python for data analysis</div><div class="post-md"><ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E5%89%8D%E6%9C%9F%E5%87%86%E5%A4%87"><span class="post-toc-text">前期准备</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#numpy"><span class="post-toc-text">NumPy</span></a></li></ol><h3 id="前期准备"><a class="markdownIt-Anchor" href="#前期准备"></a> 前期准备</h3><p>conda 环境</p><pre class="hljs"><code>
+conda create -n envte
+
+conda activate envte
+
+conda install -y pandas jupyter matplotlib
+
+conda install lxml beautifulsoup4 html5lib openpyxl  requests sqlalchemy seaborn scipy statsmodels  patsy scikit-learn pyarrow pytables numba
+
+conda remove --name env_name --all
+
+  
+  
+
+pandas  matplotlib     numpy   scikit-learn scipy seaborn
+
+</code></pre><p>约定命名</p><pre class="hljs"><code>
+import numpy as np
+
+import matplotlib.pyplot as plt
+
+import pandas as pd
+
+import seaborn as sns
+
+import statsmodels as sm
+
+</code></pre><p>Python基础介绍</p><p><code>dir(math)</code>可以使用dir查看模块所以方法</p><p><code>help()</code>展示所有模块中所以方法的说明</p><p>导入模块</p><p>import xxxx</p><p>from  xxx import  xxx</p><p>from  xxx import  *</p><p>数学模块  math</p><p>日期时间模块 datetime</p><p>随机模块 random</p><p>文件操作模块 file</p><p>正则匹配模块 re</p><p>系统接口模块 sys</p><p>第三方库</p><p>Numpy是 Python 语言的一个扩展程序库，支持大量的维度数组与矩阵运算，此外也针对数组运算提供大量的数学函数库。</p><p>Scipy是一个用于数学、科学、工程领域的常用软件包，可以处理最优化、线性代数、积分、插值、拟合、特殊函数、快速傅里叶变换、信号处理、图像处理、常微分方程求解器等。</p><p>Matplotlib绘图领域使用最广泛的套件，它能让使用者很轻松地将数据图形化。</p><p>Pandas提供高性能、易于使用的数据结构和数据分析工具，可以对各种数据进行运算操作，比如归并、再成形、选择，还有数据清洗和数据加工特征。</p><p>Scikit-learn  Python机器学习库，它广泛地用于统计分析和机器学习建模等数据科学领域。</p><p>OpenCV是一个开源的计算机视觉库，它提供了很多函数，这些函数非常高效地实现了计算机视觉算法。</p><p>NLTK是在处理预料库、分类文本、分析语言结构等多项操作中最长遇到的包。</p><p>Gensim是在做自然语言处理时较为经常用到的一个工具库，主要用来以无监督的方式从原始的非结构化文本当中来学习到文本隐藏层的主题向量表达。</p><p>主要包括<strong>TF-IDF，LSA，LDA，word2vec，doc2vec</strong>等多种模型。</p><h3 id="numpy"><a class="markdownIt-Anchor" href="#numpy"></a> NumPy</h3><p>NumPy是Numerical Python的缩写，是Python中最重要的数值计算基础包之一</p><ul><li><p>NDarray，一个高效的多维阵列，提供快速的面向阵列的算术运算和灵活的_广播_功能</p></li><li><p>数学函数，无需编写循环即可对整个数据数组进行快速操作</p></li><li><p>用于将数组数据读/写到磁盘以及处理内存映射文件的工具</p></li><li><p>线性代数、随机数生成和傅里叶变换功能</p></li><li><p>一个C API，用于将NumPy与用C，C++或FORTRAN编写的库连接起来</p></li></ul><pre class="hljs"><code>
+data=np.array() #创建
+
+data.shape  #数组形状
+
+data.dtype  #数组属性
+
+data.ndim  #数组维度
+
+#创建0或1的数组
+
+np.ones(10)
+
+np.zeros(10)
+
+np.zeros((2,3,4))#传入一个元组构建多维矩阵
+
+  
+
+来源 `https://zhuanlan.zhihu.com/p/454916593`
+
+order参数的C和F是numpy中数组元素存储区域的两种排列格式，即C语言格式和Fortran语言格式。
+
+一个三维数组
+
+a = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+
+int size 为 4 bytes
+
+数组a在内存中的数据存储区域中存储方式(默认order=&quot;C&quot;，其中一个格子是4bytes)：
+
+|1|2|3|4|5|6|7|8|9|
+
+a.strides = (12, 4)
+
+以F order创建数组：
+
+a = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]],order=&quot;F&quot;)
+
+数组b在内存中的数据存储区域中的存储方式：
+
+|1|4|7|2|5|8|3|6|9|
+
+a.strides = (4, 12)
+
+  
+  
+
+data=np.random.random(10)
+
+data.max()
+
+data.min()
+
+data.sum()
+
+data.dot() 点积运算
+
+  
+
+axis表示的是沿着哪一个轴的方向，axis本身是指数组的轴，在执行不同的函数时，具体的操作是沿着轴的方向进行的。axis的取值取决于数据的维度，如果数据是一维数组那么axis只有0，如果数据是二维的，那么axis可以取0和1，如果数据是三维的，那么axis就可以取0、1和2。
+
+  
+
+具体的，以常用的二维数据为例：axis=0表示跨行，axis=1表示跨列，作为方法动作的副词
+
+axis=0表示沿着列的方向，做逐行的操作
+
+axis=1表示沿着行的方向，做逐列的操作
+
+转置 data.T
+
+改变形状 data.reshape()
+
+  
+  
+  
+  
+  
+  
+  
+
+</code></pre><p>使用 ndarray 的方法 <code>astype</code> 将数组从一种数据类型显式转换或强制转换为另一种数据类型</p><pre class="hljs"><code>
+arr = np.array([1, 2, 3, 4, 5])
+
+arr.dtype
+
+dtype('int64')
+
+float_arr = arr.astype(np.float64)
+
+  
+  
+
+</code></pre></div><div class="post-meta"><i><span>2023-07-21</span> <span>该篇文章被 linkfo</span> <span>打上标签: <a href="/tags/python/">python </a><a href="/tags/DataAnalysis/">DataAnalysis </a></span><span>归为分类: <a href="/categories/python/">python</a></span></i></div></div><div class="footer"><span>© 2016-2023 China</span></div><div class="footer-last"><span></span> <span class="footer-last-span-right"><i>本站由<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">Hexo</a>驱动｜使用<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">Hexo-theme-A4</a>主题</i></span></div><link rel="stylesheet" href="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/css/a11y-dark.min.css"><script src="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/js/highlight.min.js"></script><script src="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/js/highlightjs-line-numbers.js"></script><script>hljs.initHighlightingOnLoad(),hljs.initLineNumbersOnLoad()</script></div></div></body></html>

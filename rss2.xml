@@ -9,13 +9,239 @@
     <atom:link href="https://linkfo.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Thu, 20 Jul 2023 07:32:55 GMT</pubDate>
+    <pubDate>Thu, 03 Aug 2023 12:53:43 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
+      <title>编程渣渣翻译详解</title>
+      <link>https://linkfo.github.io/2023/08/03/%E7%BC%96%E7%A8%8B%E6%B8%A3%E6%B8%A3%E7%BF%BB%E8%AF%91%E8%AF%A6%E8%A7%A3/e82f1dfe6d56.html</link>
+      <guid>https://linkfo.github.io/2023/08/03/%E7%BC%96%E7%A8%8B%E6%B8%A3%E6%B8%A3%E7%BF%BB%E8%AF%91%E8%AF%A6%E8%A7%A3/e82f1dfe6d56.html</guid>
+      <pubDate>Thu, 03 Aug 2023 12:52:46 GMT</pubDate>
+      
+      <description>介绍难以理解的渣渣翻译</description>
+      
+      
+      
+      
+      <category domain="https://linkfo.github.io/categories/other/">other</category>
+      
+      
+      <category domain="https://linkfo.github.io/tags/other/">other</category>
+      
+      
+      <comments>https://linkfo.github.io/2023/08/03/%E7%BC%96%E7%A8%8B%E6%B8%A3%E6%B8%A3%E7%BF%BB%E8%AF%91%E8%AF%A6%E8%A7%A3/e82f1dfe6d56.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>markdown语法</title>
+      <link>https://linkfo.github.io/2023/08/03/markdown%E8%AF%AD%E6%B3%95/2c6208d72ce7.html</link>
+      <guid>https://linkfo.github.io/2023/08/03/markdown%E8%AF%AD%E6%B3%95/2c6208d72ce7.html</guid>
+      <pubDate>Thu, 03 Aug 2023 12:44:27 GMT</pubDate>
+      
+      <description>markdown语法示例  Typora 操作</description>
+      
+      
+      
+      
+      <category domain="https://linkfo.github.io/categories/%E5%B7%A5%E5%85%B7/">工具</category>
+      
+      
+      <category domain="https://linkfo.github.io/tags/markdown/">markdown</category>
+      
+      
+      <comments>https://linkfo.github.io/2023/08/03/markdown%E8%AF%AD%E6%B3%95/2c6208d72ce7.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>VSCode各种设置 Default Settings(JSON)与Open User Settings与Open Workspace Settings(JSON)</title>
+      <link>https://linkfo.github.io/2023/07/29/VSCode%E5%90%84%E7%A7%8D%E8%AE%BE%E7%BD%AE/c787fc7e7f05.html</link>
+      <guid>https://linkfo.github.io/2023/07/29/VSCode%E5%90%84%E7%A7%8D%E8%AE%BE%E7%BD%AE/c787fc7e7f05.html</guid>
+      <pubDate>Sat, 29 Jul 2023 14:22:39 GMT</pubDate>
+      
+      <description>VSCode的配置设置</description>
+      
+      
+      
+      
+      <category domain="https://linkfo.github.io/categories/%E5%B7%A5%E5%85%B7/">工具</category>
+      
+      
+      <category domain="https://linkfo.github.io/tags/%E5%B7%A5%E5%85%B7/">工具</category>
+      
+      <category domain="https://linkfo.github.io/tags/VSCode/">VSCode</category>
+      
+      
+      <comments>https://linkfo.github.io/2023/07/29/VSCode%E5%90%84%E7%A7%8D%E8%AE%BE%E7%BD%AE/c787fc7e7f05.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>强引用与弱引用</title>
+      <link>https://linkfo.github.io/2023/07/25/Java/%E5%BC%BA%E5%BC%95%E7%94%A8%E4%B8%8E%E5%BC%B1%E5%BC%95%E7%94%A8/d5ad512ffa75.html</link>
+      <guid>https://linkfo.github.io/2023/07/25/Java/%E5%BC%BA%E5%BC%95%E7%94%A8%E4%B8%8E%E5%BC%B1%E5%BC%95%E7%94%A8/d5ad512ffa75.html</guid>
+      <pubDate>Tue, 25 Jul 2023 07:12:41 GMT</pubDate>
+      
+      <description>各种程序语言的强弱应用</description>
+      
+      
+      
+      
+      <category domain="https://linkfo.github.io/categories/Java/">Java</category>
+      
+      
+      <category domain="https://linkfo.github.io/tags/Python/">Python</category>
+      
+      <category domain="https://linkfo.github.io/tags/Java/">Java</category>
+      
+      <category domain="https://linkfo.github.io/tags/JavaScript/">JavaScript</category>
+      
+      
+      <comments>https://linkfo.github.io/2023/07/25/Java/%E5%BC%BA%E5%BC%95%E7%94%A8%E4%B8%8E%E5%BC%B1%E5%BC%95%E7%94%A8/d5ad512ffa75.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Java 泛型</title>
+      <link>https://linkfo.github.io/2023/07/22/Java/Java%20%E6%B3%9B%E5%9E%8B/9a6e0781ad45.html</link>
+      <guid>https://linkfo.github.io/2023/07/22/Java/Java%20%E6%B3%9B%E5%9E%8B/9a6e0781ad45.html</guid>
+      <pubDate>Sat, 22 Jul 2023 13:32:12 GMT</pubDate>
+      
+      <description>Java 泛型 来自https://www.cnblogs.com/coprince/p/8603492.html</description>
+      
+      
+      
+      
+      <category domain="https://linkfo.github.io/categories/Java/">Java</category>
+      
+      
+      <category domain="https://linkfo.github.io/tags/Java/">Java</category>
+      
+      <category domain="https://linkfo.github.io/tags/%E5%9F%BA%E7%A1%80/">基础</category>
+      
+      
+      <comments>https://linkfo.github.io/2023/07/22/Java/Java%20%E6%B3%9B%E5%9E%8B/9a6e0781ad45.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>VSCode插件推荐</title>
+      <link>https://linkfo.github.io/2023/07/22/VSCode%E6%8F%92%E4%BB%B6%E6%8E%A8%E8%8D%90/d3819720dbd9.html</link>
+      <guid>https://linkfo.github.io/2023/07/22/VSCode%E6%8F%92%E4%BB%B6%E6%8E%A8%E8%8D%90/d3819720dbd9.html</guid>
+      <pubDate>Sat, 22 Jul 2023 07:51:12 GMT</pubDate>
+      
+      <description>插件推荐</description>
+      
+      
+      
+      
+      <category domain="https://linkfo.github.io/categories/%E5%B7%A5%E5%85%B7/">工具</category>
+      
+      
+      <category domain="https://linkfo.github.io/tags/%E5%B7%A5%E5%85%B7/">工具</category>
+      
+      <category domain="https://linkfo.github.io/tags/vscode/">vscode</category>
+      
+      
+      <comments>https://linkfo.github.io/2023/07/22/VSCode%E6%8F%92%E4%BB%B6%E6%8E%A8%E8%8D%90/d3819720dbd9.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>python for data analysis</title>
+      <link>https://linkfo.github.io/2023/07/21/python%20for%20data%20analysis/18c165967132.html</link>
+      <guid>https://linkfo.github.io/2023/07/21/python%20for%20data%20analysis/18c165967132.html</guid>
+      <pubDate>Fri, 21 Jul 2023 13:30:06 GMT</pubDate>
+      
+      <description>为什么要做</description>
+      
+      
+      
+      
+      <category domain="https://linkfo.github.io/categories/python/">python</category>
+      
+      
+      <category domain="https://linkfo.github.io/tags/python/">python</category>
+      
+      <category domain="https://linkfo.github.io/tags/DataAnalysis/">DataAnalysis</category>
+      
+      
+      <comments>https://linkfo.github.io/2023/07/21/python%20for%20data%20analysis/18c165967132.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>git常用命令</title>
+      <link>https://linkfo.github.io/2023/07/21/git/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/c48fdddbaf37.html</link>
+      <guid>https://linkfo.github.io/2023/07/21/git/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/c48fdddbaf37.html</guid>
+      <pubDate>Fri, 21 Jul 2023 13:27:56 GMT</pubDate>
+      
+      <description>为什么要做？</description>
+      
+      
+      
+      
+      <category domain="https://linkfo.github.io/categories/%E5%B7%A5%E5%85%B7/">工具</category>
+      
+      
+      <category domain="https://linkfo.github.io/tags/git/">git</category>
+      
+      <category domain="https://linkfo.github.io/tags/github/">github</category>
+      
+      
+      <comments>https://linkfo.github.io/2023/07/21/git/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/c48fdddbaf37.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>index</title>
+      <link>https://linkfo.github.io/2023/07/21/index/1f4aaaa4b735.html</link>
+      <guid>https://linkfo.github.io/2023/07/21/index/1f4aaaa4b735.html</guid>
+      <pubDate>Fri, 21 Jul 2023 13:21:20 GMT</pubDate>
+      
+      <description>索引</description>
+      
+      
+      
+      
+      <category domain="https://linkfo.github.io/categories/index/">index</category>
+      
+      
+      <category domain="https://linkfo.github.io/tags/index/">index</category>
+      
+      
+      <comments>https://linkfo.github.io/2023/07/21/index/1f4aaaa4b735.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>https://linkfo.github.io/2023/07/21/git/0d5c6854b4b9.html</link>
+      <guid>https://linkfo.github.io/2023/07/21/git/0d5c6854b4b9.html</guid>
+      <pubDate>Fri, 21 Jul 2023 13:21:20 GMT</pubDate>
+      
+      <description>Git总目录</description>
+      
+      
+      
+      
+      <category domain="https://linkfo.github.io/categories/%E5%B7%A5%E5%85%B7/">工具</category>
+      
+      
+      <category domain="https://linkfo.github.io/tags/index/">index</category>
+      
+      <category domain="https://linkfo.github.io/tags/git/">git</category>
+      
+      
+      <comments>https://linkfo.github.io/2023/07/21/git/0d5c6854b4b9.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>git add .，git add -A，git add -u，git add * 的区别与联系</title>
-      <link>https://linkfo.github.io/2023/07/20/git%20add%20%E7%9A%84%E5%8C%BA%E5%88%AB%E4%B8%8E%E8%81%94%E7%B3%BB/b9fb7e58920f.html</link>
-      <guid>https://linkfo.github.io/2023/07/20/git%20add%20%E7%9A%84%E5%8C%BA%E5%88%AB%E4%B8%8E%E8%81%94%E7%B3%BB/b9fb7e58920f.html</guid>
+      <link>https://linkfo.github.io/2023/07/20/git/git%20add%20%E7%9A%84%E5%8C%BA%E5%88%AB%E4%B8%8E%E8%81%94%E7%B3%BB/bdb85a9a7f74.html</link>
+      <guid>https://linkfo.github.io/2023/07/20/git/git%20add%20%E7%9A%84%E5%8C%BA%E5%88%AB%E4%B8%8E%E8%81%94%E7%B3%BB/bdb85a9a7f74.html</guid>
       <pubDate>Thu, 20 Jul 2023 07:06:33 GMT</pubDate>
       
       <description>为什么要做？</description>
@@ -23,7 +249,7 @@
       
       
       
-      <category domain="https://linkfo.github.io/categories/Other/">Other</category>
+      <category domain="https://linkfo.github.io/categories/other/">other</category>
       
       
       <category domain="https://linkfo.github.io/tags/%E5%B7%A5%E5%85%B7/">工具</category>
@@ -31,7 +257,7 @@
       <category domain="https://linkfo.github.io/tags/git/">git</category>
       
       
-      <comments>https://linkfo.github.io/2023/07/20/git%20add%20%E7%9A%84%E5%8C%BA%E5%88%AB%E4%B8%8E%E8%81%94%E7%B3%BB/b9fb7e58920f.html#disqus_thread</comments>
+      <comments>https://linkfo.github.io/2023/07/20/git/git%20add%20%E7%9A%84%E5%8C%BA%E5%88%AB%E4%B8%8E%E8%81%94%E7%B3%BB/bdb85a9a7f74.html#disqus_thread</comments>
       
     </item>
     
@@ -49,14 +275,35 @@
       <category domain="https://linkfo.github.io/categories/%E5%B7%A5%E5%85%B7/">工具</category>
       
       
+      <category domain="https://linkfo.github.io/tags/%E5%B7%A5%E5%85%B7/">工具</category>
+      
       <category domain="https://linkfo.github.io/tags/Anaconda/">Anaconda</category>
       
       <category domain="https://linkfo.github.io/tags/conda/">conda</category>
       
-      <category domain="https://linkfo.github.io/tags/%E5%B7%A5%E5%85%B7/">工具</category>
-      
       
       <comments>https://linkfo.github.io/2023/07/18/conda%20%E7%AC%94%E8%AE%B0/a55e79a55634.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>程序员延寿指南</title>
+      <link>https://linkfo.github.io/2023/07/13/%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BB%B6%E5%AF%BF%E6%8C%87%E5%8D%97/b6f5d6ace584.html</link>
+      <guid>https://linkfo.github.io/2023/07/13/%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BB%B6%E5%AF%BF%E6%8C%87%E5%8D%97/b6f5d6ace584.html</guid>
+      <pubDate>Thu, 13 Jul 2023 15:27:40 GMT</pubDate>
+      
+      <description>程序员延寿指南</description>
+      
+      
+      
+      
+      <category domain="https://linkfo.github.io/categories/other/">other</category>
+      
+      
+      <category domain="https://linkfo.github.io/tags/other/">other</category>
+      
+      
+      <comments>https://linkfo.github.io/2023/07/13/%E7%A8%8B%E5%BA%8F%E5%91%98%E5%BB%B6%E5%AF%BF%E6%8C%87%E5%8D%97/b6f5d6ace584.html#disqus_thread</comments>
       
     </item>
     
